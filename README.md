@@ -33,6 +33,9 @@ To close the dev server, hit Ctrl-C
 Stuck? Visit us at https://svelte.dev/chat
 ```
 
+- `pnpm install -D tailwindcss@latest postcss@latest autoprefixer@latest` then `pnpm dlx tailwindcss init -p`
+
 # Docs 
 
 - [Readme](./docs.md)
+- https://tailwindcss.com/docs/guides/sveltekit
