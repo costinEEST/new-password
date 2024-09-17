@@ -1,4 +1,10 @@
-# CLI 
+# Docs 
+
+- [Readme](./docs.md)
+- https://tailwindcss.com/docs/guides/sveltekit
+- https://www.okupter.com/blog/deploy-sveltekit-website-to-github-pages, https://www.youtube.com/watch?v=jBSnjlp-ZYw
+
+# Setup 
 
 ```bash
 pnpm create svelte@latest password-generator
@@ -34,8 +40,5 @@ Stuck? Visit us at https://svelte.dev/chat
 ```
 
 - `pnpm install -D tailwindcss@latest postcss@latest autoprefixer@latest` then `pnpm dlx tailwindcss init -p`
+- `pnpm install -D @sveltejs/adapter-static gh-pages`
 
-# Docs 
-
-- [Readme](./docs.md)
-- https://tailwindcss.com/docs/guides/sveltekit

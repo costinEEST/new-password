@@ -1,4 +1,6 @@
 <script>
+	import { base } from '$app/paths';
+
 	let password = '';
 	let length = 12;
 	let useLetters = true;
@@ -29,6 +31,8 @@
 </script>
 
 <div class="p-4">
+	<a href="{base}/" class="flex underline justify-center">Home</a>
+
 	<div class="mb-4">
 		<label for="length" class="block text-sm font-medium text-gray-700">Length</label>
 		<input
